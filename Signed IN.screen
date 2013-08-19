@@ -1,0 +1,95 @@
+﻿<?Infragistics.Models format="xaml" version="23"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                         Id="bec5fc97-a0df-f4a6-d7f5-f542913129a3">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="e2dea04a-4f73-d27b-d330-abaf37f7ffb1">
+            <Content.Layers>
+                <Layer Id="bc03c3e0-e10d-7e65-f4b4-997af8d12a41" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="322109f7-d724-0e55-8518-afef72a5993f" Panel.Layout="Stretch" />
+            </Content.Layers>
+        </Content>
+    </Page.Content>
+    <Page.Scenes>
+        <Scene Title="Start" Created="08/19/2013 18:23:05" Id="b87a32c7-270c-c275-a4b8-46c1ba4712d7">
+            <Scene.KeyFrames>
+                <KeyFrame Id="dda8b5e9-f693-8bb6-5c4b-e038cf8e32c9">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="bc03c3e0-e10d-7e65-f4b4-997af8d12a41">
+                            <Add.Item>
+                                <ContainerBox Color="#FFE2E2E2" Id="e9361b24-a1c5-7960-aa0f-80d7cc359864" Panel.Bounds="9,16,996{5,2147483647},66{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="afd27ccd-44ca-0385-e698-a10a75aeb47c" Panel.Bounds="0,0,994*,64*">
+                                            <Container.Children>
+                                                <Triangle Type="Triangle" Thickness="1" IsClosed="True" RotationAngle="180.306391622271" Color="Transparent" Background="#FFC6C6C6" Id="55860d96-aad1-4fe6-83f3-a66397ecfe9f" Panel.Bounds="829,11,21,22">
+                                                    <Triangle.StartPoint>
+                                                        <Point X="50" Y="100" Id="0d9b69ff-43f3-a5dc-2203-f2bc93771ef3" />
+                                                    </Triangle.StartPoint>
+                                                    <Triangle.Segments>
+                                                        <Segment Id="8dec9dfa-1b40-5ca7-e892-3d32c88f8430">
+                                                            <Segment.EndPoint>
+                                                                <Point Id="752fab54-da93-9590-c41c-fd8d00f3ef31" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                        <Segment Id="249d70c5-2bcf-9a11-2a70-b281ca2c2300">
+                                                            <Segment.EndPoint>
+                                                                <Point X="100" Id="2f692a4e-8e04-a7e7-9632-f78e9340abf7" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                        <Segment Id="d9151646-9255-c084-3ae6-59750959d0cb">
+                                                            <Segment.EndPoint>
+                                                                <Point X="50" Y="100" Id="7e63c2a2-f42d-c8c0-3237-cc229b3bf5d5" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                    </Triangle.Segments>
+                                                </Triangle>
+                                                <Label Text="Yaw" FontSize="16" FontStyle="Normal|Bold" Id="290a07a9-caf1-7648-d5b3-b934ffae9134" Panel.Bounds="791,11,53*,22*" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bc03c3e0-e10d-7e65-f4b4-997af8d12a41">
+                            <Add.Item>
+                                <Image SourcePath="assets/maishalogo.jpg" Id="1a4dc1f4-1cc8-f5fb-fb79-51584e20146d" Panel.Bounds="13,19,115{5,2147483647},60{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="bc03c3e0-e10d-7e65-f4b4-997af8d12a41">
+                            <Add.Item>
+                                <Tabs FontStyle="" Id="04b50791-409b-5e2e-f829-5b0987e1ac8f" Panel.Bounds="13,98,991{5,2147483647},637{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Hot Stuff" IsSelected="True" Id="daff6462-232a-2392-af37-75796334a77f">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="0e3bc2c7-e373-4e77-8838-a3592a02af6f" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Magazines" Id="1a2f56c4-ec37-d1ca-6b74-efa0a5b6537c">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="f6abf8c1-d4f9-4e9f-8324-d59b47d54610" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Music" Id="6ffb814b-21e5-0bbc-75ec-a7997d091cff">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="a837c0e1-2878-7383-3db2-23e95824a52f" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Art" Id="0e61c1e9-81b6-f8d4-b731-7e1fd3826e2d">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="a4d4aa48-e0a0-a920-12f1-40688770e327" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Misc" Id="5f2cd0cf-f051-dbb9-874a-6268d4aa256a">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="38bc4f18-5eb4-d2c7-e2bc-3ba5de70c16f" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
